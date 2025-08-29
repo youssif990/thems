@@ -15,39 +15,38 @@
 html,
 html.dark,
 html.soft {
-	--fsk-red: #22c55e;
-	--fsk-orange: #22c55e;
-	--fsk-amber: #22c55e;
-	--fsk-lime: #22c55e;
+	--fsk-red: #ef4444;
+	--fsk-orange: #f97316;
+	--fsk-amber: #f59e0b;
+	--fsk-lime: #84cc16;
 	--fsk-green: #22c55e;
-	--fsk-emerald: #22c55e;
-	--fsk-teal: #22c55e;
-	--fsk-cyan: #22c55e;
-	--fsk-sky: #22c55e;
-	--fsk-blue: #22c55e;
-	--fsk-indigo: #22c55e;
-	--fsk-violet: #22c55e;
-	--fsk-purple: #22c55e;
-	--fsk-yellow: #22c55e;
-	--fsk-fuchsia: #22c55e;
-	--fsk-pink: #22c55e;
-	--fsk-rose: #22c55e;
-	--fsk-red-100: #dcfce7;
-	--fsk-orange-100: #dcfce7;
-	--fsk-amber-100: #dcfce7;
-	--fsk-lime-100: #dcfce7;
+	--fsk-emerald: #10b981;
+	--fsk-teal: #14b8a6;
+	--fsk-cyan: #06b6d4;
+	--fsk-sky: #0ea5e9;
+	--fsk-blue: #3b82f6;
+	--fsk-indigo: #6366f1;
+	--fsk-violet: #8b5cf6;
+	--fsk-purple: #a855f7;
+	--fsk-yellow: #e1b04a;
+	--fsk-fuchsia: #d946ef;
+	--fsk-pink: #ec4899;
+	--fsk-rose: #f43f5e;
+	--fsk-red-100: #fee2e2;
+	--fsk-orange-100: #fef3c7;
+	--fsk-amber-100: #fefce8;
+	--fsk-lime-100: #ecfccb;
 	--fsk-green-100: #dcfce7;
-	--fsk-emerald-100: #dcfce7;
-	--fsk-teal-100: #dcfce7;
-	--fsk-cyan-100: #dcfce7;
-	--fsk-sky-100: #dcfce7;
-	--fsk-blue-100: #dcfce7;
-	--fsk-indigo-100: #dcfce7;
-	--fsk-violet-100: #dcfce7;
-	--fsk-purple-100: #dcfce7;
-	--fsk-fuchsia-100: #dcfce7;
-	--fsk-pink-100: #dcfce7;
-	--fsk-rose-100: #dcfce7
+	--fsk-emerald-100: #d1fae5;
+	--fsk-teal-100: #ccfbf1;
+	--fsk-cyan-100: #cffafe;
+	--fsk-sky-100: #e0f2fe;
+	--fsk-indigo-100: #e0e7ff;
+	--fsk-violet-100: #ede9fe;
+	--fsk-purple-100: #f3e8ff;
+	--fsk-fuchsia-100: #fae8ff;
+	--fsk-pink-100: #fce7f3;
+	--fsk-rose-100: #ffe4e6
 }
 
 
@@ -74,9 +73,9 @@ html {
 	--fsk-700: #2b2b2f;
 	--fsk-800: #202024;
 	--fsk-900: #1a1a1d;
-	--fsk-blue-100: #dcfce7;
-	--fsk-code-color-1: #22c55e;
-	--fsk-code-color-2: #22c55e
+	--fsk-blue-100: #dbeafe;
+	--fsk-code-color-1: #687282;
+	--fsk-code-color-2: #47987b
 }
 
 html.dark {
@@ -90,28 +89,26 @@ html.dark {
 	--fsk-700: #dcdfe3;
 	--fsk-800: #ebecee;
 	--fsk-900: #f9fafb;
-	--fsk-blue-100: #dcfce7;
+	--fsk-blue-100: #d7e8ff;
 	--fsk-code-color-1: #aab8cf;
-	--fsk-code-color-2: #79b9a2;
-	--fsk-blue-100: #dcfce7;
-	--fsk-code-color-1: #22c55e;
-	--fsk-code-color-2: #22c55e
+	--fsk-code-color-2: #79b9a2
 }
 
 
 html.soft {
-	--fsk-50: #fcfdfd;
-	--fsk-100: #f5f8f9;
-	--fsk-200: #e9eff1;
-	--fsk-300: #d1dee3;
-	--fsk-400: #b2c5cd;
-	--fsk-500: #80969f;
-	--fsk-600: #56656c;
-	--fsk-700: #36403d;
-	--fsk-800: #1f282d;
-	--fsk-900: #11171d;
-	--fsk-code-color-1: #22c55e;
-	--fsk-code-color-2: #22c55e
+    --fsk-50: #121a24;
+    --fsk-100: #1e2734;
+    --fsk-200: #2a353e;
+    --fsk-300: #3d474f;
+    --fsk-400: #505c64;
+    --fsk-500: #68757d;
+    --fsk-600: #7a858d;
+    --fsk-700: #8c98a0;
+    --fsk-800: #a1a9b0;
+    --fsk-900: #b5bdc4;
+    --fsk-blue-100: #a7b4c3;
+    --fsk-code-color-1: #a3b0b8;
+    --fsk-code-color-2: #7c8c8c;
 }
 
 
@@ -134,8 +131,8 @@ body {
 
 
 * {
-	--fsk-site-color: #22c55e;
-	--fsk-site-gradient: linear-gradient(90deg, #22c55e 0, #22c55e 100%);
+	--fsk-site-color: #F5BB00;
+	--fsk-site-gradient: linear-gradient(90deg, rgb(60, 105, 255) 0, #6f9eec 100%);
 	font-family: Alexandria;
 	--fsk-site-border: 5px;
 }
@@ -8098,6 +8095,7 @@ button.deleteLinkBtn {
     transform: scaleX(1.05); /* زيادة حجم الشريط قليلاً */
     transition: transform 0.3s ease;
 }
+
 
 html,
 body {
